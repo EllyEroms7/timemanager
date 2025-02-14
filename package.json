@@ -9,18 +9,35 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroui/react": "^2.6.14",
+    "@react-three/drei": "^9.121.5",
+    "@react-three/fiber": "^8.17.14",
+    "@react-three/postprocessing": "^2.19.1",
+    "@react-three/rapier": "^1.5.0",
+    "@theatre/core": "^0.7.2",
+    "@theatre/r3f": "^0.7.2",
+    "@theatre/studio": "^0.7.2",
+    "@types/three": "^0.173.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.4.2",
+    "lenis": "^1.1.20",
+    "next": "14.2.24",
+    "next-themes": "^0.4.4",
+    "r3f-perf": "^7.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.24"
+    "sass": "^1.84.0",
+    "three": "^0.173.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@iconify/react": "^5.2.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.24",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.24"
+    "typescript": "^5"
   }
 }
