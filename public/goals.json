@@ -1,0 +1,36 @@
+{
+  "goals": [
+    {
+      "id": 1,
+      "name": "eat something that makes sense",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "name": "do not kill anyone today",
+      "status": "completed"
+    },
+
+    {
+      "id": 3,
+      "name": "read MTH 101 today or you dieeeeeeeettttttttrrrrrrrrrre",
+      "status": "pending"
+    },
+
+    {
+      "id": 4,
+      "name": "if you see girl run o",
+      "status": "completed"
+    },
+    {
+      "id": 5,
+      "name": "if you see girl run o",
+      "status": "completed"
+    },
+    {
+      "id": 6,
+      "name": "if you see girl run o",
+      "status": "completed"
+    }
+  ]
+}

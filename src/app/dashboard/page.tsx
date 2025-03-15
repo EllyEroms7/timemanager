@@ -6,14 +6,13 @@ import Nav from "./components/nav";
 
 const DashboardPage = () => {
   return (
-    <div className={clsx(styles.dashboard)}>
-      <div className={clsx(styles.dashboardOverlay, "bg-background/85")}>
+    <div className={clsx(styles.dashboard, "bg-background")}>
+      <div className={clsx(styles.dashboardOverlay)}>
         <Image src="/image/trace.svg" alt="" fill className="object-cover" />
       </div>
 
       <div className="z-[1] relative">
         <Nav />
-
         <Dashboard />
       </div>
     </div>

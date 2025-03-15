@@ -1,5 +1,7 @@
 .nav {
-  background-color: hsl(var(--hero-background));
+  // background-color: hsl(var(--hero-background));
+  background-image: linear-gradient(90deg, black, transparent);
   position: fixed;
   padding: 1%;
+  // box-shadow: 4px 0px 19px 9px hsl(var(--hero-primary) / 0.25);
 }
