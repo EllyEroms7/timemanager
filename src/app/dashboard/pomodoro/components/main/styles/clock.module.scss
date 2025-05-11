@@ -1,0 +1,38 @@
+.card {
+  backdrop-filter: blur(16px);
+  width: 100%;
+  border: 3px solid hsl(var(--hero-primary) / 0.25);
+  background-color: hsl(var(--hero-background) / 0.5);
+  margin-top: 2.3%;
+}
+
+.indicator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2%;
+  align-items: center;
+  width: fit-content;
+  .completed {
+    background-color: hsl(var(--hero-primary));
+    color: hsl(var(--hero-secondary));
+  }
+
+  .pending {
+    background-color: hsl(var(--hero-secondary));
+    color: hsl(var(--hero-primary));
+  }
+
+  .longBreak,
+  .shortBreak {
+    text-align: left;
+    width: fit-content;
+  }
+}
+
+//time css
+.time {
+  width: fit-content;
+  text-align: left;
+  color: hsl(var(--hero-foreground));
+}

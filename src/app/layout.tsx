@@ -13,6 +13,7 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+// Example: app/layout.tsx or any component
 
 export const metadata: Metadata = {
   title: "Time manager",
@@ -27,10 +28,10 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="text-tiny sm:text-small md:text-medium lg:text-large"
+      className="text-tiny sm:text-small md:text-medium lg:text-large xl:text-tiny 2xl:text-[1.2vw]"
     >
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased dark`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Providers>{children}</Providers>
       </body>

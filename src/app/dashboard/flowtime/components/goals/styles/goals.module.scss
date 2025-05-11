@@ -1,0 +1,10 @@
+.goals {
+  backdrop-filter: blur(16px);
+  border: 3px solid hsl(var(--hero-primary) / 0.25);
+
+  margin-top: 2.3%;
+  color: hsl(var(--hero-foreground));
+  background-color: hsl(var(--hero-background) / 0.5);
+
+  border-radius: 10px;
+}
